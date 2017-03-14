@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="84" height="100" viewBox="0 0 84 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-1);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #d9defa;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="42" y1="100" x2="42">
+      <stop offset="0" stop-color="#9e9eee"/>
+      <stop offset="1" stop-color="#7d7ce5"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M84.000,22.000 L84.000,96.000 C84.000,98.209 82.209,100.000 80.000,100.000 L4.000,100.000 C1.791,100.000 -0.000,98.209 -0.000,96.000 L-0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 L62.000,-0.000 L84.000,22.000 Z" class="cls-1"/>
+    <path d="M84.000,22.000 L66.000,22.000 C63.791,22.000 62.000,20.209 62.000,18.000 L62.000,-0.000 L84.000,22.000 Z" class="cls-2"/>
+    <path d="M52.093,55.167 L52.093,40.891 L53.731,40.891 L53.731,55.167 L52.093,55.167 ZM43.029,55.167 L37.690,40.891 L39.510,40.891 L44.020,53.387 L44.080,53.387 L48.590,40.891 L50.411,40.891 L45.071,55.167 L43.029,55.167 ZM34.248,51.168 L27.614,51.168 L26.077,55.167 L24.298,55.167 L29.981,40.891 L31.902,40.891 L37.585,55.167 L35.785,55.167 L34.248,51.168 ZM30.992,42.650 L30.911,42.650 L28.140,49.788 L33.722,49.788 L30.992,42.650 Z" class="cls-3"/>
+  </g>
+</svg>
