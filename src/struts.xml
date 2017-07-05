@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="aaa" extends="struts-default">
+		<action name="User_*" class="UserAction" method="{1}">
+			<result name="success">/jump.jsp</result>
+			<result name="fail">/login.jsp</result>
+		</action>
+		<action name="test" class="TestAction" method="test">
+			<result name="success">/main.jsp</result>
+		</action>
+
+	</package>
+
+
+	<!--返回json的Action -->
+	<package name="json" extends="json-default" namespace="/">
+		<action name="test_*" class="TestAction" method="{1}">
+			<result type="json" name="json">
+				<!-- 这里指定将被Struts2序列化的属性，该属性在action中必须有对应的getter方法 -->
+				<param name="root">dataMap</param>
+			</result>
+		</action>
+		<action name="file_*" class="FileAction" method="{1}">
+			<result type="json" name="json">
+				<!-- 这里指定将被Struts2序列化的属性，该属性在action中必须有对应的getter方法 -->
+				<param name="root">dataMap</param>
+			</result>
+			</action>
+	</package>
+</struts>    

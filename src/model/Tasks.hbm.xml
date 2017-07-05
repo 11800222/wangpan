@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="model.Tasks" table="tasks">
+		<id name="infohash" column="infohash">
+			<generator class="assigned" />
+		</id> 
+		<property name="id" column="id" />
+		<property name="user" column="user" />
+		 <property name="name" column="name" /> 
+		<property name="url" column="url" /> 
+		<property name="percentDone" column="percentDone" />
+	   <property name="pollTime" column="pollTime" />
+
+	</class>
+</hibernate-mapping>
